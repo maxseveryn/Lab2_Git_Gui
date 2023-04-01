@@ -111,6 +111,7 @@ int main()
 {
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
+    cout << "Ця програма демонструє перевантаження деяких операторів!" << endl;
 
     DynamicString text("Просто текст для мого завдання.");
     cout << "До зміни: " << text.getData() << endl;
